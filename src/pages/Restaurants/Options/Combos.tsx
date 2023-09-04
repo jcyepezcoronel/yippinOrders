@@ -43,7 +43,7 @@ const Combos: React.FC = () => {
                     </IonToolbar>
                 </IonHeader>
                 <IonContent className="ion-padding">
-                    <TabsGeneric options={option2} pathName='combos' />
+                    <TabsGeneric options={option2} pathName='combos'  />
 
                     <div className='contendListCard'>
                         {
