@@ -1,0 +1,47 @@
+.button-tab {
+    --border-radius: 0px;
+    --background: #000000;
+    --background-hover: #C4FFA1;
+    --background-activated: #C4FFA1;
+    --background-focused: #C4FFA1;
+    --color: rgb(255, 255, 255);
+    --border-color: #000;
+    --border-style: solid;
+    --border-width: 1px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    --ripple-color: deeppink;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    margin: 0;
+}
+
+.button-tab .icon {
+    margin-right: 10px;
+}
+
+.button-active {
+    --border-radius: 0px 0px 0px 15px;
+    --background: #C4FFA1;
+    --color: rgb(0, 0, 0);
+    font-weight: 600;
+    --border-right: 2px solid #000;
+    --border-bottom: 2px solid #000;
+    --border-left: 2px solid #000;
+    --box-shadow: 3px 3px 0px 0px #000;
+    margin-right: 2px;
+}
+
+.tabs-contend {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-right: 5px;
+    gap: 2px;
+    padding-bottom: 20px;
+}
+
+.tabs-contend::-webkit-scrollbar {
+    display: none;
+}

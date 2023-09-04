@@ -1,0 +1,74 @@
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-inpus h1 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.divider::after {
+    content: '';
+    border-top: 1px solid #717070;
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    top: 50%;
+    margin-left: 15px;
+}
+
+.divider::before {
+    content: '';
+    border-top: 1px solid #717070;
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    top: 50%;
+    margin-right: 15px;
+    left: 0;
+}
+
+.route-login {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.route-login p:nth-child(1) {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.route-login p:nth-child(2) {
+    color: #0D0D0D;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.container-inputs-in{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.center{
+    justify-content: center;
+}

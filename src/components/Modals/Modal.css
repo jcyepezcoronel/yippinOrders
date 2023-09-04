@@ -1,0 +1,9 @@
+.modal-custom {
+
+    --background: none;
+}
+
+.modal-custom .ion-page {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 2px solid #0D0D0D;
+}

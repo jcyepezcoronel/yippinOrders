@@ -1,0 +1,107 @@
+.container__body {}
+
+.container__body_img {
+    position: relative;
+}
+
+.container__body_img img {
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #0D0D0D;
+}
+
+.container__body_img>div {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #C4FFA1;
+    box-shadow: 2px 2px 0px 0px #000;
+    position: absolute;
+    left: 14.5px;
+    bottom: -10px;
+}
+
+.container__body_img>div>p {
+    margin: 0;
+}
+
+.container__body_info {
+    padding: 20px;
+}
+
+.container__body_info__raint {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container__body_info__raint_category {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.container__body_info__rating_start {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container__body_info__raint_category>p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    background: #0D0D0D;
+    color: white;
+}
+
+.container__body_info__location>p:nth-child(1) {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.container__body_info__location>p:nth-child(2) {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.container__body_info__location>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container__body_info__location>div>p {
+    color: #383838;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.container__body_info__button .button-contend {
+    height: 84px;
+}
+
+.container__body_info__button .button-contend button span {
+    justify-content: space-between;
+}
